@@ -1,6 +1,5 @@
-/* ----  IMMEDIATE TIME -> O(1) ---- */
-console.log("Welcome to the Data Structures and Algorithms Course");   /* O(1) -> Immediate Time */
-
+/* ----  CONSTANT TIME -> O(1) ---- */
+const a = 5;
 
 /* ----  LINEAR TIME -> O(n) ---- */
 

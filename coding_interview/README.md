@@ -6,23 +6,23 @@ How well a problem is solved
 
 ## **CheatSheet**
 
-- **O(1)** Constant - no loops
+-   **O(1)** Constant - no loops
 
-- **O(log N)** Logarithmic - usually searching algorithms have log n if they are sorted (Binary Search)
+-   **O(log N)** Logarithmic - usually searching algorithms have log n if they are sorted (Binary Search)
 
-- **O(n)** Linear - for loops, while loops through n items
+-   **O(n)** Linear - for loops, while loops through n items
 
-- **O(n log(n))** Log Linear - usually sorting operations
+-   **O(n log(n))** Log Linear - usually sorting operations
 
-- **O(n^2)** Quadratic - every element in a collection needs to be compared to every other element. Two nested loops
+-   **O(n^2)** Quadratic - every element in a collection needs to be compared to every other element. Two nested loops
 
-- **O(2^n)** Exponential - recursive algorithms that solves a problem of size N
+-   **O(2^n)** Exponential - recursive algorithms that solves a problem of size N
 
-- **O(n!)** Factorial - you are adding a loop for every element
+-   **O(n!)** Factorial - you are adding a loop for every element
 
-- Iterating through half a collection is still **O(n)**
+-   Iterating through half a collection is still **O(n)**
 
-- Two separate collections: **O(a \* b)**
+-   Two separate collections: **O(a \* b)**
 
 | Big O     | Name         | Description                        |
 | :-------- | :----------- | :--------------------------------- |
@@ -36,10 +36,10 @@ How well a problem is solved
 
 ## **What Can Cause Time in a Function?**
 
-- Operations **(+,-, \*, /)**
-- Comparisons **(<, >, ===)**
-- Looping **(for, while)**
-- Outside Function call **(function())**
+-   Operations **(+,-, \*, /)**
+-   Comparisons **(<, >, ===)**
+-   Looping **(for, while)**
+-   Outside Function call **(function())**
 
 ## **Sorting Algorithms**
 
@@ -70,20 +70,18 @@ How well a problem is solved
 
 **Rule 2**: Remove Constants
 
-**Rule 3**:
-
-Different inputs should have different variables: O(a + b).
+**Rule 3**: Different inputs should have different variables: O(a + b).
 A and B arrays nested would be: O(a \* b)
 
-- \+ for steps in order
+-   \+ for steps in order
 
-- \* for nested steps
+-   \* for nested steps
 
 **Rule 4**: Drop Non-dominant terms
 
 ## **What Causes Space Complexity?**
 
-- Variables
-- Data Structures
-- Function Call
-- Allocations
+-   Variables
+-   Data Structures
+-   Function Call
+-   Allocations

@@ -2,11 +2,11 @@ from os import system
 
 print("Welcome to the secret auction program.")
 
-end_program = False
+bidding_finished = False
 
 bidders = []
 
-while not end_program:
+while not bidding_finished:
     name = input("What is your name?: ")
     bid = float(input("What's your bid?: $"))
     
@@ -18,7 +18,7 @@ while not end_program:
     continue_program = input("Are there any other bidders? Type 'yes' or 'no'. ").lower()
 
     if continue_program == 'no':
-        end_program = True
+        bidding_finished = True
     else:
         system('clear')
 

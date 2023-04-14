@@ -1,8 +1,10 @@
 from turtle import *
 import random
 import colorgram
+from PIL import Image
 
-colors = colorgram.extract("/home/tecu/100-days-python/day_18/download.webp", 10)
+my_image = Image.open("day_18/download.webp")
+colors = colorgram.extract(my_image, 10)
 
 rgb_colors = []
 for color in colors:
